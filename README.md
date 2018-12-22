@@ -8,4 +8,6 @@ My retrieve approach is
 1.converting sequence of bits to decimal number i  
 2.suppose we treat every board as a base-n^2 permutation of length n^2, in other word, flatten into a 1-d array, we can find the ith smallest permutation by progressively figuring out each digit in the number starting from the left. And that's the permutation corresponding to i.  
 3.transform the permutation back to an n-by-n array  
-The compression approach roughly follows the same idea, we can calculate the rank of a base-n^2 number of length n^2 among all permutation possibilities, and then convert it to sequence of bits.
+The compression approach roughly follows the same idea, we can calculate the rank of a base-n^2 number of length n^2 among all permutation possibilities, and then convert it to sequence of bits.  
+
+**see board.java for detailed implementation**
