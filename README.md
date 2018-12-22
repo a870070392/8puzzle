@@ -10,4 +10,4 @@ My retrieve approach is
 3.transform the permutation back to an n-by-n array  
 The compression approach roughly follows the same idea, we can calculate the rank of a base-n^2 number of length n^2 among all permutation possibilities, and then convert it to sequence of bits.  
 
-**see board.java for detailed implementation**
+**see Board.java for detailed implementation**
